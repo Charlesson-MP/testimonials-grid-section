@@ -61,58 +61,58 @@ main h1 {
     gap: var(--spacing-card);
 }
 
-.cards .card {
+.card {
     padding: var(--spacing-card);
     border-radius: 1rem;
     color: var(--white);
     line-height: 1.2rem;
 }
 
-.cards .card .card-header {
+.card-header {
     display: flex;
     gap: 1rem;
     align-items: center;
     margin-bottom: var(--margin-card);
 }
 
-.cards .card .card-header img {
+.card-header img {
     width: 2.5rem;
     border-radius: 50%;
 }
 
-.cards .card .card-header h2 {
+.card-header h2 {
     font-size: 1rem;
     font-weight: 500;
 }
 
-.cards .card .card-header p {
+.card-header p {
     font-size: .8rem;
     font-weight: 400;
 }
 
-.cards .card .report-title {
+.report-title {
     font-size: 1.4rem;
     margin-bottom: var(--margin-card);
     line-height: 1.7rem;
 }
 
-.cards .card .report {
+.report {
     font-size: .9rem;
     font-weight: 400;
 } 
 
 /* Daniel card settings */
-.cards .daniel-card {
+.daniel-card {
     background-color: var(--purple500);
 }
 
 /* Jonathan card settings */
-.cards .jonathan-card {
+.jonathan-card {
     background-color: var(--grey500);
 }
 
 /* Jeanette card settings */
-.cards .jeanette-card, .cards .kira-card {
+.jeanette-card, .kira-card {
     background-color: var(--white);
     color: var(--grey500);
     font-weight: 600;
@@ -120,6 +120,6 @@ main h1 {
 }
 
 /* Patrick card settings */
-.cards .patrick-card {
+.patrick-card {
     background-color: var(--dark-blue);
 }

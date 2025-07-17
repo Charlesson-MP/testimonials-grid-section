@@ -14,29 +14,29 @@
     }
 
     /* Daniel card settings */
-    .cards .daniel-card {
+    .daniel-card {
         grid-area: daniel;
         background: var(--purple500) url(../images/bg-pattern-quotation.svg) no-repeat;
         background-position: top right 5rem;
     }
 
     /* Jonathan card settings */
-    .cards .jonathan-card {
+    .jonathan-card {
         grid-area: jonathan;
     }
 
     /* Jeanethe card settings */
-    .cards .jeanette-card {
+    .jeanette-card {
         grid-area: jeanette;
     }
 
     /* Patrick card settings */
-    .cards .patrick-card {
+    .patrick-card {
         grid-area: patrick;
     }
 
     /* Kira card settings */
-    .cards .kira-card {
+    .kira-card {
         grid-area: kira;
     }
 }
