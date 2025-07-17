@@ -1,0 +1,125 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* CSS variables */
+:root {
+    /* Colors */
+    /* Primary */
+    --purple50: hsl(260, 100%, 95%);
+    --purple300: hsl(264, 82%, 80%);
+    --purple500: hsl(263, 55%, 52%);
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --grey100: hsl(214, 17%, 92%);
+    --grey200: hsl(0, 0%, 81%);
+    --grey400: hsl(224, 10%, 45%);
+    --grey500: hsl(217, 19%, 35%);
+    --dark-blue: hsl(219, 29%, 14%);
+    --black: hsl(0, 0%, 7%);
+
+    /* Fonts */
+    --barlow500: normal 500 1rem "Barlow Semi Condensed", sans-serif;
+    --barlow600: normal 600 1rem "Barlow Semi Condensed", sans-serif;
+
+    /* spacind */
+    --spacing-card: 2rem;
+    --margin-card: 1rem;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body settings */
+body {
+    background-color: var(--purple50);
+    font: var(--barlow500)
+}
+
+/* Main settings */
+main {
+    padding: 3rem var(--spacing-card);
+}
+
+main h1 {
+    font: var(--barlow600);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: var(--spacing-card);
+    color: var(--dark-blue);
+}
+
+/* Cards settings */
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-card);
+}
+
+.cards .card {
+    padding: var(--spacing-card);
+    border-radius: 1rem;
+    color: var(--white);
+    line-height: 1.2rem;
+}
+
+.cards .card .card-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: var(--margin-card);
+}
+
+.cards .card .card-header img {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.cards .card .card-header h2 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cards .card .card-header p {
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.cards .card .report-title {
+    font-size: 1.4rem;
+    margin-bottom: var(--margin-card);
+    line-height: 1.7rem;
+}
+
+.cards .card .report {
+    font-size: .9rem;
+    font-weight: 400;
+} 
+
+/* Daniel card settings */
+.cards .daniel-card {
+    background-color: var(--purple500);
+}
+
+/* Jonathan card settings */
+.cards .jonathan-card {
+    background-color: var(--grey500);
+}
+
+/* Jeanette card settings */
+.cards .jeanette-card, .cards .kira-card {
+    background-color: var(--white);
+    color: var(--grey500);
+    font-weight: 600;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.158);
+}
+
+/* Patrick card settings */
+.cards .patrick-card {
+    background-color: var(--dark-blue);
+}
