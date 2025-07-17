@@ -1,0 +1,42 @@
+/* Styles for large screens */
+@media screen and (min-width: 64rem) {
+    /* Cards settings */
+    .cards {
+        max-width: 75rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+        gap: 2rem;
+    }
+
+    /* Daniel card settings */
+    .cards .daniel-card {
+        grid-area: daniel;
+        background: var(--purple500) url(../images/bg-pattern-quotation.svg) no-repeat;
+        background-position: top right 5rem;
+    }
+
+    /* Jonathan card settings */
+    .cards .jonathan-card {
+        grid-area: jonathan;
+    }
+
+    /* Jeanethe card settings */
+    .cards .jeanette-card {
+        grid-area: jeanette;
+    }
+
+    /* Patrick card settings */
+    .cards .patrick-card {
+        grid-area: patrick;
+    }
+
+    /* Kira card settings */
+    .cards .kira-card {
+        grid-area: kira;
+    }
+}
