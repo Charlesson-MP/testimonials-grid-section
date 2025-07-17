@@ -1,0 +1,8 @@
+/* Styles for medium screens */
+@media screen and (min-width: 48rem) and (max-width: 63rem) {
+    /* Cards settings */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} 
