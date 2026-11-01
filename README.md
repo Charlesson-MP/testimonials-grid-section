@@ -10,7 +10,7 @@ The layout adapts to different screen sizes, providing an organized and consiste
 
 ## 🎨 Preview
 
-![Testimonials preview image](./src/images/preveiw.png)
+![Testimonials preview image](./src/images/preview.png)
 
 ---
 
